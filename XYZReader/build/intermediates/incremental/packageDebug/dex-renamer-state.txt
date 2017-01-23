@@ -1,0 +1,7 @@
+#Mon Jan 23 13:10:02 PST 2017
+base.0=C\:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c2d299d231132c1de9d93876b0a850be5064b377
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8ad4f716b005a6e29501cf782fffe3e5a9253864\\classes.dex
+base.1=C\:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8ad4f716b005a6e29501cf782fffe3e5a9253864
+file.0=C\:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c2d299d231132c1de9d93876b0a850be5064b377\\classes.dex
