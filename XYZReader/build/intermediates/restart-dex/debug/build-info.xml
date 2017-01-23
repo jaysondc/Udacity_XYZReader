@@ -5,7 +5,7 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="154053844421008"
+    timestamp="158768658978147"
     token="-8268431046569338012"
     verifier="COMPATIBLE" >
 
@@ -27,22 +27,15 @@
         type="RESOURCES" />
 
     <build
-        timestamp="151603962081037"
+        timestamp="157435284454883"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\GitHub\Udacity\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="153254688723211"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="153463500328579"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="157884952246982"
+        verifier="R_CLASS_CHANGE" >
         <artifact
             location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
@@ -51,21 +44,14 @@
             type="DEX" />
     </build>
     <build
-        timestamp="153925584981076"
-        verifier="COMPATIBLE" >
+        timestamp="158485255699755"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\builds\debug\153925584981076\classes.dex"
-            type="RELOAD_DEX" />
+            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
     </build>
     <build
-        timestamp="153964170917257"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\builds\debug\153964170917257\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="154053844421008"
+        timestamp="158768658978147"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"

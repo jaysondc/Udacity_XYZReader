@@ -16,10 +16,11 @@
         android:orientation="vertical">
 
         <!--suppress AndroidLintContentDescription -->
+        <!-- Image view height is dynamic. Static height only kicks in if no image is loaded -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:background="@color/photo_placeholder" />
 
         <TextView

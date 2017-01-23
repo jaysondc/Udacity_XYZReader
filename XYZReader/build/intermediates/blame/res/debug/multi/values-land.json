@@ -11,14 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 276,
-                        "endColumn": 61,
-                        "endOffset": 333
-                    }
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml"
                 }
             },
             {
@@ -30,14 +23,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 560,
-                        "endColumn": 71,
-                        "endOffset": 627
-                    }
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml"
                 }
             },
             {
@@ -49,14 +35,7 @@
                     "endOffset": 254
                 },
                 "from": {
-                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 863,
-                        "endColumn": 69,
-                        "endOffset": 928
-                    }
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml"
                 }
             },
             {
@@ -68,14 +47,7 @@
                     "endOffset": 324
                 },
                 "from": {
-                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 933,
-                        "endColumn": 69,
-                        "endOffset": 998
-                    }
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml"
                 }
             },
             {
@@ -87,14 +59,7 @@
                     "endOffset": 388
                 },
                 "from": {
-                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1225,
-                        "endColumn": 63,
-                        "endOffset": 1284
-                    }
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml"
                 }
             },
             {
@@ -106,14 +71,7 @@
                     "endOffset": 459
                 },
                 "from": {
-                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1520,
-                        "endColumn": 70,
-                        "endOffset": 1586
-                    }
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml"
                 }
             },
             {
@@ -125,14 +83,7 @@
                     "endOffset": 527
                 },
                 "from": {
-                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1591,
-                        "endColumn": 67,
-                        "endOffset": 1654
-                    }
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-land\\values.xml"
                 }
             },
             {
@@ -144,14 +95,7 @@
                     "endOffset": 585
                 },
                 "from": {
-                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\src\\main\\res\\values-land\\macro_layout.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 88,
-                        "endColumn": 57,
-                        "endOffset": 141
-                    }
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\src\\main\\res\\values-land\\macro_layout.xml"
                 }
             },
             {
@@ -163,13 +107,25 @@
                     "endOffset": 637
                 },
                 "from": {
+                    "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\src\\main\\res\\values-land\\macro_layout.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 642,
+                    "endColumn": 49,
+                    "endOffset": 687
+                },
+                "from": {
                     "file": "C:\\GitHub\\Udacity\\XYZReader\\XYZReader\\src\\main\\res\\values-land\\macro_layout.xml",
                     "position": {
-                        "startLine": 2,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 36,
-                        "endColumn": 51,
-                        "endOffset": 83
+                        "startOffset": 146,
+                        "endColumn": 49,
+                        "endOffset": 191
                     }
                 }
             }
