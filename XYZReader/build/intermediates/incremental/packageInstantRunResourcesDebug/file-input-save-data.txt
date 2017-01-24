@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 24 10:28:43 PST 2017
+#Tue Jan 24 10:49:43 PST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_popup_exit.xml
 14.set=ANDROID_RESOURCE
