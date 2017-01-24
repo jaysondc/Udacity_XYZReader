@@ -1,61 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86_64,x86"
     api-level="25"
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="158768658978147"
+    timestamp="228309756646618"
     token="-8268431046569338012"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="3438" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1490" />
     <task
         name="verifier"
-        duration="0" />
+        duration="307" />
 
     <artifact
-        location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="C:\GitHub\Udacity\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="157435284454883"
+        timestamp="228309756646618"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\GitHub\Udacity\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="157884952246982"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="158485255699755"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="158768658978147"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>
