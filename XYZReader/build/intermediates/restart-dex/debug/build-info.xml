@@ -5,29 +5,29 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="236471890400972"
+    timestamp="238033466271707"
     token="-8268431046569338012"
-    verifier="R_CLASS_CHANGE" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2263" />
+        duration="289" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="404" />
     <task
         name="instant-run-transform"
-        duration="153" />
+        duration="59" />
     <task
         name="verifier"
-        duration="109" />
+        duration="3" />
 
     <artifact
         location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
     <artifact
-        location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
+        location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         timestamp="228309756646618"
@@ -48,19 +48,30 @@
         <artifact
             location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
-        <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
     </build>
     <build
         timestamp="236471890400972"
         verifier="R_CLASS_CHANGE" >
         <artifact
+            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="237774770023048"
+        verifier="METHOD_DELETED" >
+        <artifact
+            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="238033466271707"
+        verifier="COMPATIBLE" >
+        <artifact
             location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
         <artifact
-            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
+            location="C:\GitHub\Udacity\XYZReader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

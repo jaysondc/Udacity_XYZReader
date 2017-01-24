@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 24 12:44:32 PST 2017
+#Tue Jan 24 13:10:32 PST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\GitHub\\Udacity\\XYZReader\\XYZReader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ratingbar_material.xml
 14.set=ANDROID_RESOURCE
