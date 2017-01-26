@@ -9,4 +9,6 @@
 
     <string name="up">Up</string>
 
+    <string name="network_error">Can\'t contact the network. Check your connection and try again.</string>
+
 </resources>

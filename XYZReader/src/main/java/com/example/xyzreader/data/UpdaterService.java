@@ -27,6 +27,8 @@ public class UpdaterService extends IntentService {
             = "com.example.xyzreader.intent.action.STATE_CHANGE";
     public static final String EXTRA_REFRESHING
             = "com.example.xyzreader.intent.extra.REFRESHING";
+    public static final String EXTRA_NETWORK_ERROR
+            = "com.example.xyzreader.intent.extra.NETWORK_ERROR";
 
     public UpdaterService() {
         super(TAG);
@@ -40,11 +42,15 @@ public class UpdaterService extends IntentService {
         NetworkInfo ni = cm.getActiveNetworkInfo();
         if (ni == null || !ni.isConnected()) {
             Log.w(TAG, "Not online, not refreshing.");
+            sendStickyBroadcast(
+                    new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, false)
+                            .putExtra(EXTRA_NETWORK_ERROR, true));
             return;
         }
 
         sendStickyBroadcast(
-                new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, true));
+                new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, true)
+                    .putExtra(EXTRA_NETWORK_ERROR, false));
 
         // Don't even inspect the intent, we only do one thing, and that's fetch content.
         ArrayList<ContentProviderOperation> cpo = new ArrayList<ContentProviderOperation>();
@@ -77,11 +83,15 @@ public class UpdaterService extends IntentService {
 
             getContentResolver().applyBatch(ItemsContract.CONTENT_AUTHORITY, cpo);
 
+            sendStickyBroadcast(
+                    new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, false)
+                        .putExtra(EXTRA_NETWORK_ERROR, false));
+
         } catch (JSONException | RemoteException | OperationApplicationException e) {
             Log.e(TAG, "Error updating content.", e);
+            sendStickyBroadcast(
+                    new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, false)
+                            .putExtra(EXTRA_NETWORK_ERROR, true));
         }
-
-        sendStickyBroadcast(
-                new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, false));
     }
 }

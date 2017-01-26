@@ -25,15 +25,15 @@
                 android:layout_height="wrap_content"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
-                app:layout_collapseMode="parallax"
-                tools:drawable="@drawable/photo_background_protection"/>
+                app:layout_collapseMode="parallax" />
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/meta_bar"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:minHeight="?actionBarSize"
-                android:layout_gravity="bottom">
+                android:layout_gravity="bottom"
+                app:elevation="@dimen/toolbar_elevation">
 
                 <LinearLayout
                     android:layout_width="match_parent"
