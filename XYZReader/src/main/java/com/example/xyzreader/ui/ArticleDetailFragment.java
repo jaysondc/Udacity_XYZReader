@@ -11,7 +11,9 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.ShareCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
+import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
@@ -115,6 +117,11 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });
 
+        // Enable back navigation
+        AppCompatActivity myActivity = (AppCompatActivity) getActivity();
+        myActivity.setSupportActionBar((Toolbar) mRootView.findViewById(R.id.meta_bar));
+        myActivity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         return mRootView;
     }
 
@@ -133,6 +140,7 @@ public class ArticleDetailFragment extends Fragment implements
     }
 
     private void bindViews() {
+
         if (mRootView == null) {
             return;
         }
