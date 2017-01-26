@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.ShareCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
@@ -121,26 +120,7 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });
 
-        // Enable back navigation
-        AppCompatActivity myActivity = (AppCompatActivity) getActivity();
-        myActivity.setSupportActionBar((Toolbar) mRootView.findViewById(R.id.meta_bar));
-        myActivity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         return mRootView;
-    }
-
-    static float progress(float v, float min, float max) {
-        return constrain((v - min) / (max - min), 0, 1);
-    }
-
-    static float constrain(float val, float min, float max) {
-        if (val < min) {
-            return min;
-        } else if (val > max) {
-            return max;
-        } else {
-            return val;
-        }
     }
 
     private void bindViews() {
@@ -148,6 +128,17 @@ public class ArticleDetailFragment extends Fragment implements
         if (mRootView == null) {
             return;
         }
+
+        // Enable back navigation per fragment. Since we're in a ViewPager we can't properly
+        // assign a SupportActionBar so we have to handle back manually.
+        Toolbar myToolbar = (Toolbar) mRootView.findViewById(R.id.meta_bar);
+        myToolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_arrow_back));
+        myToolbar.setNavigationOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                getActivity().onBackPressed();
+            }
+        });
 
         TextView titleView = (TextView) mRootView.findViewById(R.id.article_title);
         TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
