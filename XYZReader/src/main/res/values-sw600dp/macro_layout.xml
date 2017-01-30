@@ -1,10 +1,17 @@
 <resources>
     <!-- detail -->
     <dimen name="detail_photo_height">384dp</dimen>
-    <dimen name="detail_card_top_margin">384dp</dimen>
-    <dimen name="detail_inner_horiz_margin">64dp</dimen>
+    <dimen name="detail_card_top_margin">4dp</dimen>
+    <dimen name="detail_inner_horiz_margin">@dimen/keyline_1</dimen>
     <dimen name="detail_metabar_vert_padding">32dp</dimen>
     <dimen name="detail_metabar_title_bottom_padding">8dp</dimen>
     <dimen name="detail_body_bottom_margin">96dp</dimen>
     <integer name="list_column_count">2</integer>
+    <item  name="article_body_layout" type="layout">@layout/article_body_card</item>
+    <dimen name="expanded_title_gravity">@integer/gravity_center_horizontal</dimen>
+
+    <dimen name="keyline_1">24dp</dimen>
+    <dimen name="keyline_2">80dp</dimen>
+
+    <item name="is_tablet_layout" type="bool" format="boolean">true</item>
 </resources>
