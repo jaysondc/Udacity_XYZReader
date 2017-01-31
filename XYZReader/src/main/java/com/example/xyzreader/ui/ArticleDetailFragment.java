@@ -74,7 +74,7 @@ public class ArticleDetailFragment extends Fragment implements
             mItemId = getArguments().getLong(ARG_ITEM_ID);
         }
 
-        mIsCard = getResources().getBoolean(R.bool.detail_is_card);
+        mIsCard = getResources().getBoolean(R.bool.is_tablet_layout);
         mStatusBarFullOpacityBottom = getResources().getDimensionPixelSize(
                 R.dimen.detail_card_top_margin);
         setHasOptionsMenu(true);
@@ -147,7 +147,14 @@ public class ArticleDetailFragment extends Fragment implements
             mRootView.setVisibility(View.VISIBLE);
             mRootView.animate().alpha(1);
 
-            mCollapsingToolbar.setTitle(mCursor.getString(ArticleLoader.Query.TITLE));
+            // Set the title based on our layout
+            if(getResources().getBoolean(R.bool.is_tablet_layout)){
+                TextView titleView = (TextView) mRootView.findViewById(R.id.detail_article_title);
+                titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
+            } else {
+                mCollapsingToolbar.setTitle(mCursor.getString(ArticleLoader.Query.TITLE));
+            }
+
             bylineView.setText(Html.fromHtml(
                     DateUtils.getRelativeTimeSpanString(
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
